@@ -1,0 +1,24 @@
+.title{ 
+    background-color: aqua;
+    color: brown;
+    padding: 1em;
+    text-align: center;
+}
+.img1, .img2,.img3,.img4{
+    width: 45%;
+    margin: 2%i;
+}
+.img1{ 
+    border-radius: 15px;
+}
+.img2{ 
+    border-radius: 50%;
+}
+.img3{ 
+    border: salmon 10px inset;
+    padding: 1em;
+    background-color: burlywood;
+}
+.img4{ 
+    box-shadow: 0px 0px 5px 2px greenyellow;
+}
