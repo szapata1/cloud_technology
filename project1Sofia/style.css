@@ -1,0 +1,8 @@
+*{box-sizing: border-box;}
+.intro_pg{
+    width: 60%;
+}
+img{
+    width: 800px;
+    height: auto;
+}
