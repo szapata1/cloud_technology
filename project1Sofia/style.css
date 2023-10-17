@@ -2,7 +2,7 @@
 
 .intro_pg{
     position: absolute;
-    top: 0%;
+    top: -0%;
     left: 10%;
     right: 10%;
     text-align: center;
@@ -39,4 +39,30 @@ img{
 .txt{
     width: 46%;
     margin: 2%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.title{
+    background-color: crimson;
+    padding: 2%;
+    margin: 1em;
+}
+.navTabs{
+    background-color: blue;
+    position:fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.links{
+    display: inline-block;
+    padding: 1em 3em;
+    color: whitesmoke;
+    width: 33%;
+    text-align: center  ;
+}
+.links:hover{
+    color: brown;
+    background-color: bisque;
+    font-weight: bolder;
 }
