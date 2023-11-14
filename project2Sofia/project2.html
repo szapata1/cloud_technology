@@ -7,7 +7,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
-    <h1 class="bg-white text-dark text-center">Shampoo world!</h1>
+    <h1 class="display-1 bg-danger text-dark text-center p-3">Shampoo world!</h1>
+    <div class="btn-group p-3">
+      <button type="button" class="btn-dark btn">Home</button>
+      <button type="button" class="btn-dark btn" >Shampoos</button>
+      <button type="button" class="btn-dark btn">More from us</button>
+    </div>
     <section class="carousel slide" data-bs-ride="carousel" style="width: 60%; margin: auto;"id="slideshow">
         <div class="carousel-inner">
              <div class="carousel-item active"><img src="images/bottles.jpg" width="100%"><h2 class="carousel-caption">30% off</h2> </div>
@@ -23,7 +28,7 @@
         <button class="carousel-control-next" type="button" data-bs-slide="next" data-bs-target="#slideshow">
             <span class="carousel-control-next-icon bg-danger" aria-hidden="true"></span>
         </button>
-
+        <p class="bg-dark text-light text-center">Our bestsellers</p>
 
         <!--Indicators-->
         <div class="carousel-indicators">
@@ -33,7 +38,17 @@
             <button type="button" data-bs-target="#slideshow" data-bs-slide-to="3" aria-label="Slide 4"></button>
             <button type="button" data-bs-target="#slideshow" data-bs-slide-to="4" aria-label="Slide 5"></button>
         </div>
+
+        <div class="container-fluid">
+          <div clas="row">
+            <section class="card col-md-3 offset-sm-1">
+              <img src="images/aussie.png" class="card-img-top" width="100">
+            </section>
+          </div>
+        </div>
     </section>
+
+    <h1 class="bg-danger text-dark text-center p-3">Our shampoos</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
